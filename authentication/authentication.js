@@ -9,8 +9,7 @@ async function register(req, res) {
         LastName,
         PersonalEmail,
         UserType,
-        Password,
-        OrganizationId
+        Password
     } = req.body;
 
     const user_id = uuidv4();
@@ -32,11 +31,11 @@ async function register(req, res) {
 
         const InsertUserQuery = `
             INSERT INTO bridge.bridge_user_info 
-            (user_id, first_name, last_name, personal_email, user_type, password, verified, verification_token, organization_id) 
-            VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9);
+            (user_id, first_name, last_name, personal_email, user_type, password, verified, verification_token) 
+            VALUES($1, $2, $3, $4, $5, $6, $7, $8);
         `;
         await client.query(InsertUserQuery, [
-            user_id, FirstName, LastName, PersonalEmail, UserType, password_hash, 0, verificationToken, OrganizationId
+            user_id, FirstName, LastName, PersonalEmail, UserType, password_hash, 0, verificationToken
         ]);
 
         await client.query('COMMIT');
