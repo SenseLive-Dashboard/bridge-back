@@ -1,10 +1,10 @@
 {
   "name": "bridge-back",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,24 +12,19 @@
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "console-table-printer": "^2.12.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "ejs": "^3.1.10",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
     "mqtt": "^5.10.3",
-    "nodemailer": "^6.9.15",
+    "node-cron": "^3.0.3",
     "pg": "^8.13.0",
     "pidusage": "^3.0.2",
-    "pino": "^9.6.0",
-    "pino-multi-stream": "^6.0.0",
-    "pino-pretty": "^13.0.0",
-    "snapsvg": "^0.5.1",
     "uuid": "^10.0.0",
     "winston": "^3.17.0",
-    "winston-daily-rotate-file": "^5.0.0",
-    "winston-transport": "^4.9.0"
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
