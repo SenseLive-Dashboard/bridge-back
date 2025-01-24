@@ -21,5 +21,7 @@ router.get('/getAllBrokers', broker.getAllBrokers);
 //mapping
 router.post('/addMapping', mapping.addMapping);
 router.delete('/deleteMapping/:id', mapping.deleteMapping);
+router.put('/editMapping/:id', mapping.editMapping);
+router.get('/collectAllMappings', mapping.collectAllMappings);
 
 module.exports = router;

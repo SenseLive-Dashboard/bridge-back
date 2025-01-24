@@ -6,7 +6,7 @@ const mqttClients = {};
 const brokerStatus = {};
 
 async function connectToBroker(broker) {
-    if (mqttClients[broker.id]) return mqttClients[broker.id]; 
+    if (mqttClients[broker.id]) return mqttClients[broker.id];
     const client = mqtt.connect(`mqtt://${broker.host}:${broker.port}`, {
         username: broker.username,
         password: broker.password,
@@ -18,15 +18,15 @@ async function connectToBroker(broker) {
 
     client.on('connect', () => {
         brokerStatus[broker.id] = { status: 'connected', lastUpdated: new Date().toISOString() };
-        console.log(`Connected to broker: ${broker.name}`);
+        logger.info(`Connected to broker: ${broker.name}`);
     });
     client.on('error', (error) => {
         brokerStatus[broker.id] = { status: 'error', error: error.message, lastUpdated: new Date().toISOString() };
-        console.error(`Error with broker ${broker.name}: ${error.message}`);
+        logger.error(`Error with broker ${broker.name}: ${error.message}`);
     });
     client.on('disconnect', () => {
         brokerStatus[broker.id] = { status: 'disconnected', lastUpdated: new Date().toISOString() };
-        console.log(`Disconnected from broker: ${broker.name}`);
+        logger.info(`Disconnected from broker: ${broker.name}`);
     });
     mqttClients[broker.id] = client;
     brokerStatus[broker.id] = { status: 'connecting', lastUpdated: new Date().toISOString() };
@@ -36,30 +36,39 @@ async function connectToBroker(broker) {
 async function disconnectBroker(brokerId) {
     const client = mqttClients[brokerId];
     if (client) {
-        client.end(true); 
-        delete mqttClients[brokerId]; 
+        client.end(true);
+        delete mqttClients[brokerId];
         brokerStatus[brokerId] = { status: 'disconnected', lastUpdated: new Date().toISOString() };
-        console.log(`Disconnected and removed broker ID: ${brokerId}`);
+        logger.info(`Disconnected and removed broker ID: ${brokerId}`);
     }
 }
 
 async function refreshBrokers() {
-    const brokers = await db.query('SELECT * FROM bridge.bridge_brokers');
-    const currentBrokerIds = Object.keys(mqttClients).map(id => parseInt(id));
-    for (const broker of brokers.rows) {
-        await connectToBroker(broker);
-    }
-    const dbBrokerIds = brokers.rows.map(broker => broker.id);
-    for (const brokerId of currentBrokerIds) {
-        if (!dbBrokerIds.includes(brokerId)) {
-            await disconnectBroker(brokerId);
+    try {
+        const brokers = await db.query('SELECT * FROM bridge.bridge_brokers');
+        const currentBrokerIds = Object.keys(mqttClients).map(id => parseInt(id));
+        for (const broker of brokers.rows) {
+            await connectToBroker(broker);
         }
+        const dbBrokerIds = brokers.rows.map(broker => broker.id);
+        for (const brokerId of currentBrokerIds) {
+            if (!dbBrokerIds.includes(brokerId)) {
+                await disconnectBroker(brokerId);
+            }
+        }
+    } catch (error) {
+        logger.error(`Error refreshing brokers: ${error.message}`);
     }
+
 }
 
 async function monitorBrokers() {
-    setInterval(refreshBrokers, 5000);
+    logger.info('Starting broker monitoring...');
+    setInterval(() => {
+        refreshBrokers();
+    }, 5000);
 }
+
 
 async function getBrokerStatus() {
     return brokerStatus;

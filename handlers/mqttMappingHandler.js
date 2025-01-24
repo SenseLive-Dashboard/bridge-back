@@ -2,24 +2,26 @@ const db = require('../db');
 const { Worker } = require('worker_threads');
 const _ = require('lodash');
 const { mqttClients } = require('./mqttBrokerHandler');
+const logger = require('../logger/logger');
 
 const subscribedTopics = {};
 
 async function forwardMessage(mapping, transformedMessage) {
     const targetClient = mqttClients[mapping.target_broker_id];
     if (!targetClient) {
-        console.error(`Target client not found for broker ID: ${mapping.target_broker_id}`);
+        logger.error(`Target client not found for broker ID: ${mapping.target_broker_id}`);
         return;
     }
     if (mapping.mapping_status !== 'active') {
-        console.log(`Mapping ID ${mapping.id} is not active. Skipping.`);
+        //logger.info(`Mapping ID ${mapping.id} is not active. Skipping.`);
         return;
     }
 
     targetClient.publish(mapping.target_topic, transformedMessage, (err) => {
         if (err) {
-            console.error(`Error publishing to ${mapping.target_topic}: ${err.message}`);
+            logger.error(`Error publishing to ${mapping.target_topic}: ${err.message}`);
         } else {
+            // logger.info(`Message published to ${mapping.target_topic}: ${transformedMessage}`);
             console.log(`Message published to ${mapping.target_topic}: ${transformedMessage}`);
         }
     });
@@ -52,7 +54,7 @@ async function updateMappings() {
             batch.map(async (mapping) => {
                 const sourceClient = mqttClients[mapping.source_broker_id];
                 if (!sourceClient) {
-                    console.error(`Source client not found for broker ID: ${mapping.source_broker_id}`);
+                    logger.error(`Source client not found for broker ID: ${mapping.source_broker_id}`);
                     return;
                 }
 
@@ -67,7 +69,7 @@ async function updateMappings() {
                     !storedMapping ||
                     storedMapping.last_updated.getTime() !== new Date(mapping.last_updated).getTime()
                 ) {
-                    console.log(`Updating mapping for topic ${mapping.source_topic}`);
+                    logger.info(`Updating mapping for topic ${mapping.source_topic}`);
                     subscribedTopics[mapping.source_broker_id].set(topicKey, {
                         ...mapping,
                         last_updated: new Date(mapping.last_updated),
@@ -75,9 +77,9 @@ async function updateMappings() {
 
                     sourceClient.subscribe(mapping.source_topic, (err) => {
                         if (err) {
-                            console.error(`Error subscribing to ${mapping.source_topic}: ${err.message}`);
+                            logger.error(`Error subscribing to ${mapping.source_topic}: ${err.message}`);
                         } else {
-                            console.log(`Subscribed to ${mapping.source_topic}`);
+                            logger.info(`Subscribed to ${mapping.source_topic}`);
                         }
                     });
                 }
@@ -92,12 +94,12 @@ async function updateMappings() {
                             try {
                                 const transformedMessage = await startWorker(relevantMapping, message.toString());
                                 if (transformedMessage.error) {
-                                    console.error(`Worker error: ${transformedMessage.error}`);
+                                    logger.error(`Worker error: ${transformedMessage.error}`);
                                 } else {
                                     forwardMessage(relevantMapping, transformedMessage.toString());
                                 }
                             } catch (err) {
-                                console.error(`Error processing message with worker: ${err.message}`);
+                                logger.error(`Error processing message with worker: ${err.message}`);
                             }
                         }
                     });

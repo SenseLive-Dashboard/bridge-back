@@ -18,7 +18,6 @@ async function applyTransformation(message, transformations, keep_payload_same) 
                         const value = _.get(parsedMessage, path, null);
                         transformedMessage[newKey] = value;
                     } catch (error) {
-                        //console.error(`Error extracting field ${path}:`, error);
                         logger.error(`Error extracting field ${path}: ${error.message}`);
                         transformedMessage[newKey] = null;
                     }
@@ -34,7 +33,6 @@ async function applyTransformation(message, transformations, keep_payload_same) 
 
         return JSON.stringify(transformedMessage);
     } catch (err) {
-        //console.error(`Error in applyTransformation: ${err.message}`);
         logger.error(`Error in applyTransformation: ${err.message}`);
         throw err;
     }
