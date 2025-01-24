@@ -787,3 +787,120 @@
 2025-01-24T10:17:23.493Z [INFO]: Subscribed to Sense/Live/SL02202355
 2025-01-24T10:17:24.335Z [INFO]: Fetching all mappings initiated by: ::1
 2025-01-24T10:17:24.356Z [INFO]: Collected 2 mappings successfully.
+2025-01-24T10:18:30.356Z [INFO]: Starting broker monitoring...
+2025-01-24T10:18:35.397Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:18:35.398Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:18:35.448Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:18:35.449Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:18:35.490Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:18:35.600Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:18:40.406Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:18:40.412Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:18:40.444Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:18:40.445Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:21:37.911Z [INFO]: Starting broker monitoring...
+2025-01-24T10:21:42.956Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:21:42.956Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:21:43.009Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:21:43.010Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:21:43.056Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:21:43.073Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:21:46.754Z [INFO]: Starting broker monitoring...
+2025-01-24T10:21:51.833Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:21:51.834Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:21:51.837Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:21:51.838Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:21:51.880Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:21:51.906Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:21:51.935Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:21:51.936Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:21:53.668Z [INFO]: Starting broker monitoring...
+2025-01-24T10:21:58.755Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:21:58.756Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:21:58.759Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:21:58.760Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:21:58.807Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:21:58.833Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:21:58.876Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:21:58.878Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:24:04.511Z [INFO]: Starting broker monitoring...
+2025-01-24T10:24:09.609Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:24:09.610Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:24:09.614Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:24:09.616Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:24:09.659Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:24:09.770Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:24:09.800Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:24:09.801Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:24:14.995Z [INFO]: Starting broker monitoring...
+2025-01-24T10:24:20.045Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:24:20.046Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:24:20.096Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:24:20.097Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:24:20.149Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:24:20.165Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:24:25.044Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:24:25.048Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:24:25.082Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:24:25.084Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:24:50.418Z [INFO]: Starting broker monitoring...
+2025-01-24T10:24:55.453Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:24:55.454Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:24:55.515Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:24:55.517Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:24:55.568Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:24:55.582Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:24:56.760Z [INFO]: Starting broker monitoring...
+2025-01-24T10:25:01.860Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:25:01.862Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:25:01.865Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:25:01.867Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:25:01.911Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:25:01.936Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:25:01.968Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:25:01.969Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:30:26.152Z [INFO]: Starting broker monitoring...
+2025-01-24T10:30:31.182Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:30:31.182Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:30:31.235Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:30:31.236Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:30:31.283Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:30:31.382Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:30:36.196Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:30:36.202Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:30:36.233Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:30:36.234Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:30:40.796Z [INFO]: Starting broker monitoring...
+2025-01-24T10:30:45.907Z [INFO]: Starting broker monitoring...
+2025-01-24T10:30:50.945Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:30:50.946Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T10:30:51.000Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:30:51.001Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:30:51.047Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:30:51.065Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:30:55.956Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:30:55.958Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:30:55.989Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:30:55.991Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:33:43.556Z [INFO]: Starting broker monitoring...
+2025-01-24T10:33:46.382Z [INFO]: Starting broker monitoring...
+2025-01-24T10:33:51.467Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:33:51.468Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:33:51.471Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:33:51.473Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:33:51.520Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:33:51.623Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:33:51.654Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:33:51.655Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T10:34:18.709Z [INFO]: Starting broker monitoring...
+2025-01-24T10:34:21.604Z [INFO]: Starting broker monitoring...
+2025-01-24T10:34:23.510Z [INFO]: Starting broker monitoring...
+2025-01-24T10:34:25.255Z [INFO]: Starting broker monitoring...
+2025-01-24T10:34:30.349Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T10:34:30.350Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T10:34:30.353Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:34:30.354Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T10:34:30.401Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T10:34:30.418Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T10:34:30.446Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T10:34:30.447Z [INFO]: Subscribed to Sense/Live/SL02202355

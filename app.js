@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const { errorHandler } = require('./middleware/errorMiddleware');
 const mqttBrokerHandler = require('./handlers/mqttBrokerHandler');
 const mqttMappingHandler = require('./handlers/mqttMappingHandler');
+const pidusage = require('pidusage');
 
 const app = express();
 const port = 8000;
@@ -20,6 +21,23 @@ app.use(errorHandler);
 // Start monitoring brokers and mappings
 mqttBrokerHandler.monitorBrokers();
 mqttMappingHandler.monitorMappings();
+
+async function monitorResourceUsage() {
+  try {
+      const stats = await pidusage(process.pid); // Fetch stats asynchronously
+      console.log(process.pid);
+      console.log(`CPU Usage: ${stats.cpu.toFixed(2)}%`);
+      console.log(`Memory Usage: ${(stats.memory / 1024 / 1024).toFixed(2)} MB`);
+  } catch (err) {
+      console.error('Error fetching resource usage stats:', err);
+  }
+}
+
+monitorResourceUsage();
+
+setInterval(() => {
+  monitorResourceUsage();
+}, 10 * 1000);
 
 // Start the server
 app.listen(port, () => {

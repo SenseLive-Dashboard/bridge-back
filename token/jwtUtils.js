@@ -36,13 +36,16 @@ function refreshToken(token, options = {}) {
 function authenticateUser(req, res, next) {
   const token = req.headers.authorization?.split(' ')[1];
   if (!token) {
+    logger.warn('Authorization token missing');
     return res.status(401).json({ message: 'Authorization token is required' });
   }
   try {
     const decoded = verifyToken(token);
+    logger.info('User authenticated successfully', { user: decoded });
     req.user = decoded;
     next();
   } catch (error) {
+    logger.error('Authentication failed', { error });
     res.status(401).json({ message: error.message });
   }
 }
