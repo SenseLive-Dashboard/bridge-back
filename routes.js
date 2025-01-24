@@ -6,16 +6,16 @@ const broker = require('./controllers/brokerController');
 const mapping = require('./controllers/mappingController');
 // authentication
 router.post('/register', auth.register);
-router.post('/login', auth.loginUser);
-router.get('/user', auth.getUserDetails);
+router.post('/login', auth.loginUser); //done
+router.get('/user', auth.getUserDetails); //done
 
 //broker
-router.post('/addBroker', broker.addBroker);
-router.delete('/deleteBroker/:id', broker.deleteBroker);
-router.post('/testBroker', broker.testBroker);
-router.get('/brokerStatus', broker.fetchBrokerStatus);
-router.put('/editBroker/:id', broker.editBroker);
-router.get('/getAllBrokers', broker.getAllBrokers);
+router.post('/addBroker', broker.addBroker); //done
+router.delete('/deleteBroker/:id', broker.deleteBroker); //done
+router.post('/testBroker', broker.testBroker); //done
+router.get('/brokerStatus', broker.fetchBrokerStatus); //done
+router.put('/editBroker/:id', broker.editBroker); //done
+router.get('/getAllBrokers', broker.getAllBrokers); //done
 
 
 //mapping
