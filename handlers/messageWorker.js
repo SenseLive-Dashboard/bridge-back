@@ -1,5 +1,6 @@
 const { parentPort, workerData } = require('worker_threads');
 const _ = require('lodash');
+const logger = require('../logger/logger');
 
 async function applyTransformation(message, transformations, keep_payload_same) {
     try {
@@ -9,7 +10,7 @@ async function applyTransformation(message, transformations, keep_payload_same) 
 
         const parsedMessage = JSON.parse(message);
         let transformedMessage = {};
-
+        
         if (transformations) {
             if (transformations.extractFields) {
                 for (const [newKey, path] of Object.entries(transformations.extractFields)) {
@@ -17,8 +18,9 @@ async function applyTransformation(message, transformations, keep_payload_same) 
                         const value = _.get(parsedMessage, path, null);
                         transformedMessage[newKey] = value;
                     } catch (error) {
-                        console.error(`Error extracting field ${path}:`, error);
-                        transformedMessage[newKey] = null; // Or a default value
+                        //console.error(`Error extracting field ${path}:`, error);
+                        logger.error(`Error extracting field ${path}: ${error.message}`);
+                        transformedMessage[newKey] = null;
                     }
                 }
             }
@@ -32,7 +34,8 @@ async function applyTransformation(message, transformations, keep_payload_same) 
 
         return JSON.stringify(transformedMessage);
     } catch (err) {
-        console.error(`Error in applyTransformation: ${err.message}`);
+        //console.error(`Error in applyTransformation: ${err.message}`);
+        logger.error(`Error in applyTransformation: ${err.message}`);
         throw err;
     }
 }

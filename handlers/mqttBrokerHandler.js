@@ -1,15 +1,21 @@
 const mqtt = require('mqtt');
 const db = require('../db');
+const logger = require('../logger/logger');
 
 const mqttClients = {};
 const brokerStatus = {};
 
 async function connectToBroker(broker) {
-    if (mqttClients[broker.id]) return mqttClients[broker.id]; // Return existing client
+    if (mqttClients[broker.id]) return mqttClients[broker.id]; 
     const client = mqtt.connect(`mqtt://${broker.host}:${broker.port}`, {
         username: broker.username,
         password: broker.password,
+        reconnectPeriod: 5000,
+        connectTimeout: 10000,
     });
+    brokerStatus[broker.id] = { status: 'connecting', lastUpdated: new Date().toISOString() };
+    logger.info(`Attempting to connect to broker: ${broker.name}`);
+
     client.on('connect', () => {
         brokerStatus[broker.id] = { status: 'connected', lastUpdated: new Date().toISOString() };
         console.log(`Connected to broker: ${broker.name}`);

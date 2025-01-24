@@ -1,11 +1,44 @@
 const db = require('../db');
+const mqtt = require('mqtt');
 const { Worker } = require('worker_threads');
 const _ = require('lodash');
 const { mqttClients } = require('./mqttBrokerHandler');
 
 const subscribedTopics = {};
 
-async function forwardMessage(mapping, transformedMessage) {
+async function applyTransformation(message, transformations, keep_payload_same) {
+
+    if (!transformations || keep_payload_same) {
+        return message;
+    }
+
+    const parsedMessage = JSON.parse(message);
+    let transformedMessage = {};
+
+    if (transformations) {
+        if (transformations.extractFields) {
+            for (const [newKey, path] of Object.entries(transformations.extractFields)) {
+                try {
+                    const value = _.get(parsedMessage, path, null);
+                    transformedMessage[newKey] = value;
+                } catch (error) {
+                    console.error(`Error extracting field ${path}:`, error);
+                    transformedMessage[newKey] = null; // Or a default value
+                }
+            }
+        }
+        if (transformations.addFields) {
+            for (const [key, value] of Object.entries(transformations.addFields)) {
+                transformedMessage[key] =
+                    value === "CURRENT_TIMESTAMP" ? new Date().toISOString() : value;
+            }
+        }
+    }
+
+    return JSON.stringify(transformedMessage);
+}
+
+async function forwardMessage(mapping, message) {
     const targetClient = mqttClients[mapping.target_broker_id];
     if (!targetClient) {
         console.error(`Target client not found for broker ID: ${mapping.target_broker_id}`);
@@ -15,6 +48,8 @@ async function forwardMessage(mapping, transformedMessage) {
         console.log(`Mapping ID ${mapping.id} is not active. Skipping.`);
         return;
     }
+
+    const transformedMessage = await applyTransformation(message, mapping.transformations, mapping.keep_payload_same);
 
     targetClient.publish(mapping.target_topic, transformedMessage, (err) => {
         if (err) {
@@ -59,6 +94,7 @@ async function updateMappings() {
                 if (!subscribedTopics[mapping.source_broker_id]) {
                     subscribedTopics[mapping.source_broker_id] = new Map();
                 }
+                //console.log(subscribedTopics);
 
                 const topicKey = `${mapping.source_topic}_${mapping.id}`;
                 const storedMapping = subscribedTopics[mapping.source_broker_id].get(topicKey);
@@ -89,16 +125,19 @@ async function updateMappings() {
                         );
 
                         for (const relevantMapping of relevantMappings) {
-                            try {
-                                const transformedMessage = await startWorker(relevantMapping, message.toString());
-                                if (transformedMessage.error) {
-                                    console.error(`Worker error: ${transformedMessage.error}`);
-                                } else {
-                                    forwardMessage(relevantMapping, transformedMessage.toString());
-                                }
-                            } catch (err) {
-                                console.error(`Error processing message with worker: ${err.message}`);
-                            }
+                            //await forwardMessage(relevantMapping, message.toString());
+                            await startWorker(relevantMapping, message.toString())
+                                .then((transformedMessage) => {
+                                    console.log(transformedMessage)
+                                    if (transformedMessage.error) {
+                                        console.error(`Worker error: ${transformedMessage.error}`);
+                                    } else {
+                                        forwardMessage(relevantMapping, transformedMessage.toString());
+                                    }
+                                })
+                                .catch((err) => {
+                                    console.error(`Error processing message with worker: ${err.message}`);
+                                });
                         }
                     });
                     sourceClient.hasAttachedListener = true;
@@ -107,6 +146,7 @@ async function updateMappings() {
         );
     }
 }
+
 
 async function monitorMappings() {
     setInterval(updateMappings, 5000);

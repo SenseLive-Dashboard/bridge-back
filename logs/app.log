@@ -1,0 +1,28 @@
+2025-01-24T07:35:20.026Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T07:35:20.029Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T07:35:46.448Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T07:35:46.451Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T07:39:02.974Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T07:39:02.977Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T07:41:54.414Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T07:41:54.417Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T07:50:13.835Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T07:50:13.838Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T07:50:24.894Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T07:50:24.896Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+{"level":30,"time":1737705244373,"msg":"Attempting to connect to broker: broker.senselive.io"}
+{"level":30,"time":1737705244378,"msg":"Attempting to connect to broker: dashboard.senselive.in"}
+{"level":30,"time":1737705305640,"msg":"Attempting to connect to broker: broker.senselive.io"}
+{"level":30,"time":1737705305645,"msg":"Attempting to connect to broker: dashboard.senselive.in"}
+2025-01-24T07:56:43.931Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T07:56:43.934Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T07:59:51.756Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T07:59:51.758Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T08:00:14.371Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T08:00:14.374Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T08:02:14.480Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T08:02:14.483Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T08:02:24.757Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T08:02:24.760Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T08:03:04.645Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T08:03:04.647Z [INFO]: Attempting to connect to broker: dashboard.senselive.in

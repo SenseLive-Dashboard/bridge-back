@@ -14,6 +14,9 @@ router.post('/addBroker', broker.addBroker);
 router.delete('/deleteBroker/:id', broker.deleteBroker);
 router.post('/testBroker', broker.testBroker);
 router.get('/brokerStatus', broker.fetchBrokerStatus);
+router.put('/editBroker/:id', broker.editBroker);
+router.get('/getAllBrokers', broker.getAllBrokers);
+
 
 //mapping
 router.post('/addMapping', mapping.addMapping);

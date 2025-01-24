@@ -67,9 +67,43 @@ async function fetchBrokerStatus(req, res, next) {
     }
 }
 
+async function editBroker(req, res, next) {
+    const { id } = req.params;
+    const { name, host, port, username, password } = req.body;
+
+    try {
+        const query = `
+            UPDATE bridge.bridge_brokers
+            SET name = $1, host = $2, port = $3, username = $4, password = $5
+            WHERE id = $6 RETURNING id;
+        `;
+        const result = await db.query(query, [name, host, port, username, password, id]);
+
+        if (result.rowCount === 0) {
+            throw createError(404, 'Broker not found');
+        }
+
+        res.status(200).json({ message: 'Broker updated successfully' });
+    } catch (error) {
+        next(error);
+    }
+}
+
+async function getAllBrokers(req, res, next) {
+    try {
+        const query = `SELECT id, name, host, port, username FROM bridge.bridge_brokers;`;
+        const result = await db.query(query);
+
+        res.status(200).json({ message: 'Brokers fetched successfully', brokers: result.rows });
+    } catch (error) {
+        next(error);
+    }
+}
 module.exports = {
     addBroker,
     deleteBroker,
     testBroker,
     fetchBrokerStatus,
+    editBroker,
+    getAllBrokers,
 };
