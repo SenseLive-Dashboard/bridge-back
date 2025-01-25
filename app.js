@@ -24,7 +24,11 @@ mqttBrokerHandler.monitorBrokers();
 mqttMappingHandler.monitorMappings();
 
 
-// Start the server
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+// // Start the server
+// app.listen(port, () => {
+//   console.log(`Server running on port ${port}`);
+// });
+
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server is running on http://0.0.0.0:${port}`);
 });

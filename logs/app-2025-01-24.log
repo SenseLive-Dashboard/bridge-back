@@ -137,3 +137,492 @@
 2025-01-24T11:32:12.668Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
 2025-01-24T11:32:12.700Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
 2025-01-24T11:32:12.701Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T11:33:08.225Z [INFO]: Starting broker monitoring...
+2025-01-24T11:33:13.271Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T11:33:13.273Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T11:33:13.332Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T11:33:13.334Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T11:33:13.392Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T11:33:13.483Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T11:33:18.280Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:33:18.286Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T11:33:18.318Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:33:18.319Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T11:37:37.492Z [INFO]: Login attempt initiated for user: admin@dawg.com
+2025-01-24T11:37:37.619Z [INFO]: Login successful for user: admin@dawg.com
+2025-01-24T11:37:37.627Z [INFO]: Fetching user details for request: GET /user
+2025-01-24T11:37:37.826Z [INFO]: User details fetched successfully for user: admin@dawg.com
+2025-01-24T11:37:38.158Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:37:38.180Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:37:44.855Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:37:44.876Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:38:12.823Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T11:38:12.849Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T11:38:13.948Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:38:13.971Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:38:28.418Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:38:28.439Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:38:36.385Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:38:36.407Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:38:41.016Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:38:41.039Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:38:47.010Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:38:47.036Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:39:02.838Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:39:02.860Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:39:16.080Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:39:16.103Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:39:55.536Z [INFO]: Testing broker connection: emqx.broker.io:1883
+2025-01-24T11:39:55.971Z [WARN]: Broker connection failed: emqx.broker.io:1883 - getaddrinfo EAI_AGAIN emqx.broker.io
+2025-01-24T11:39:59.301Z [INFO]: Testing broker connection: emqx.broker.io:1883
+2025-01-24T11:39:59.303Z [WARN]: Broker connection failed: emqx.broker.io:1883 - getaddrinfo EAI_AGAIN emqx.broker.io
+2025-01-24T11:40:01.395Z [INFO]: Testing broker connection: emqx.broker.io:1883
+2025-01-24T11:40:01.787Z [WARN]: Broker connection failed: emqx.broker.io:1883 - getaddrinfo EAI_AGAIN emqx.broker.io
+2025-01-24T11:40:14.356Z [INFO]: Testing broker connection: broker.emqx.io:1883
+2025-01-24T11:40:19.358Z [WARN]: Broker connection failed: broker.emqx.io:1883 - connack timeout
+2025-01-24T11:40:33.549Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:40:33.573Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:40:35.001Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:40:35.023Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:48:50.196Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:48:50.218Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:49:02.485Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:49:02.507Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:49:07.012Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:49:07.036Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:49:19.813Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:49:19.835Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:49:22.869Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:49:22.908Z [INFO]: Fetched 2 brokers successfully.
+2025-01-24T11:49:41.914Z [INFO]: Testing broker connection: broker.emqx.io:1883
+2025-01-24T11:49:43.144Z [INFO]: Broker connection successful: broker.emqx.io:1883
+2025-01-24T11:49:46.066Z [INFO]: Attempting to add a new broker: EMQX at broker.emqx.io:1883
+2025-01-24T11:49:46.092Z [INFO]: Broker added successfully: EMQX (ID: 6)
+2025-01-24T11:49:49.797Z [INFO]: Attempting to connect to broker: EMQX
+2025-01-24T11:49:50.562Z [INFO]: Connected to broker: EMQX
+2025-01-24T11:49:51.238Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:49:51.279Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:49:55.191Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:49:55.214Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:50:09.046Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:50:09.069Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:50:14.131Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:50:14.153Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:50:22.049Z [INFO]: Testing broker connection: dashboard.senselive.in:1885
+2025-01-24T11:50:24.248Z [WARN]: Broker connection failed: dashboard.senselive.in:1885 - connect ECONNREFUSED 65.2.127.156:1885
+2025-01-24T11:50:31.620Z [INFO]: Testing broker connection: dashboard.senselive.in:1885
+2025-01-24T11:50:33.827Z [WARN]: Broker connection failed: dashboard.senselive.in:1885 - connect ECONNREFUSED 65.2.127.156:1885
+2025-01-24T11:50:38.772Z [INFO]: Testing broker connection: dashboard.senselive.in:1883
+2025-01-24T11:50:38.852Z [INFO]: Broker connection successful: dashboard.senselive.in:1883
+2025-01-24T11:50:40.143Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T11:50:40.169Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T11:50:41.279Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:50:41.319Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:51:10.334Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:51:10.356Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:51:34.365Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:51:34.386Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:51:35.835Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:51:35.856Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:51:37.936Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:51:37.976Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:51:43.413Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:51:43.439Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:51:47.430Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T11:51:47.455Z [ERROR]: Unexpected error while updating broker with ID 3: null value in column "password" of relation "bridge_brokers" violates not-null constraint
+2025-01-24T11:51:53.296Z [INFO]: Testing broker connection: dashboard.senselive.in:1884
+2025-01-24T11:51:55.422Z [WARN]: Broker connection failed: dashboard.senselive.in:1884 - connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:51:57.662Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T11:51:57.690Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T11:51:59.081Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:51:59.123Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:52:25.089Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:52:25.115Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:53:13.574Z [INFO]: Starting broker monitoring...
+2025-01-24T11:53:17.273Z [INFO]: Starting broker monitoring...
+2025-01-24T11:53:22.383Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T11:53:22.385Z [INFO]: Attempting to connect to broker: EMQX
+2025-01-24T11:53:22.386Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T11:53:22.389Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:53:22.391Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T11:53:22.599Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T11:53:22.628Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:53:22.630Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T11:53:23.247Z [INFO]: Connected to broker: EMQX
+2025-01-24T11:53:24.565Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:53:31.807Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:53:38.948Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:53:46.083Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:53:53.300Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:54:00.526Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:54:02.391Z [INFO]: Starting broker monitoring...
+2025-01-24T11:54:07.433Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T11:54:07.434Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T11:54:07.495Z [INFO]: Attempting to connect to broker: broker.senselive.io
+2025-01-24T11:54:07.496Z [INFO]: Attempting to connect to broker: EMQX
+2025-01-24T11:54:07.497Z [INFO]: Attempting to connect to broker: dashboard.senselive.in
+2025-01-24T11:54:07.564Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T11:54:08.270Z [INFO]: Connected to broker: EMQX
+2025-01-24T11:54:09.625Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:54:12.457Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:54:12.460Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T11:54:12.491Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:54:12.493Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T11:54:16.762Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:54:20.348Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T11:54:20.389Z [ERROR]: Unexpected error while updating broker with ID 3: null value in column "password" of relation "bridge_brokers" violates not-null constraint
+2025-01-24T11:54:23.908Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:54:24.974Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T11:54:25.021Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T11:54:26.121Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:54:26.162Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:54:31.158Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:54:38.402Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:54:45.651Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:54:52.876Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:00.040Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:07.301Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:14.448Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:21.697Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:28.826Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:36.072Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:43.310Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:50.450Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:55:57.680Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:56:04.836Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:56:12.081Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:56:19.294Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:56:26.431Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:56:33.595Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:56:40.827Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:56:47.969Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:56:55.202Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:57:02.355Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:57:09.511Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:57:16.737Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:57:23.958Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:57:31.200Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:57:38.430Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:57:45.665Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:57:52.907Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:00.047Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:07.163Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:14.305Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:21.435Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:28.573Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:35.798Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:42.903Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:50.123Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:58:57.239Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:59:03.988Z [INFO]: Starting broker monitoring...
+2025-01-24T11:59:04.952Z [INFO]: Starting broker monitoring...
+2025-01-24T11:59:09.999Z [INFO]: Starting broker monitoring...
+2025-01-24T11:59:13.612Z [INFO]: Starting broker monitoring...
+2025-01-24T11:59:18.639Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T11:59:18.640Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T11:59:18.785Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T11:59:18.849Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T11:59:19.536Z [INFO]: Connected to broker: EMQX
+2025-01-24T11:59:23.654Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:59:23.660Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T11:59:23.691Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:59:23.692Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T11:59:28.684Z [INFO]: Starting broker monitoring...
+2025-01-24T11:59:30.835Z [INFO]: Starting broker monitoring...
+2025-01-24T11:59:32.370Z [INFO]: Starting broker monitoring...
+2025-01-24T11:59:37.409Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T11:59:37.410Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T11:59:37.517Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T11:59:37.579Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T11:59:38.259Z [INFO]: Connected to broker: EMQX
+2025-01-24T11:59:42.423Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:59:42.429Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T11:59:42.477Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T11:59:42.478Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T11:59:46.137Z [INFO]: Testing broker connection: dashboard.senselive.in:1884
+2025-01-24T11:59:48.265Z [WARN]: Broker connection failed: dashboard.senselive.in:1884 - connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T11:59:49.535Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T11:59:49.560Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T11:59:50.667Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T11:59:50.707Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T11:59:52.452Z [INFO]: Disconnected and removed broker ID: 3
+2025-01-24T11:59:54.580Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:01.817Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:09.045Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:16.278Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:23.419Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:30.545Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:37.692Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:44.834Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:52.070Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:00:59.313Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:01:06.527Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:01:13.753Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:01:20.974Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:01:28.099Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:01:35.351Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:01:42.587Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:01:49.808Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:01:56.957Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:02:04.161Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:02:11.383Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:02:18.519Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:02:25.755Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:02:32.887Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:02:40.115Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:02:47.261Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:02:54.389Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:01.639Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:08.876Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:16.004Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:23.221Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:30.352Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:37.573Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:44.795Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:51.940Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:03:59.175Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:04:06.413Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:04:13.542Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:04:20.682Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:04:27.843Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:04:35.020Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:04:42.264Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:04:49.371Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:04:56.486Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:05:03.632Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:05:10.874Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:05:18.123Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:05:25.252Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:05:32.385Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:05:39.529Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:05:46.658Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:05:53.812Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:06:01.064Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:06:08.177Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:06:15.390Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:06:16.695Z [INFO]: Starting broker monitoring...
+2025-01-24T12:06:21.731Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T12:06:21.732Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T12:06:21.984Z [INFO]: Connected to broker: broker.senselive.io
+2025-01-24T12:06:22.596Z [INFO]: Connected to broker: EMQX
+2025-01-24T12:06:24.018Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:06:26.742Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T12:06:26.744Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T12:06:26.796Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T12:06:26.800Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T12:06:31.234Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:06:32.021Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:06:32.043Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:06:38.455Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:06:45.663Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:06:52.896Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:07:00.142Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:07:07.262Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:07:13.997Z [INFO]: Testing broker connection: dashboard.senselive.in:1883
+2025-01-24T12:07:14.072Z [WARN]: Broker connection failed: dashboard.senselive.in:1883 - Connection refused: Not authorized
+2025-01-24T12:07:14.476Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:07:20.595Z [INFO]: Testing broker connection: dashboard.senselive.in:1883
+2025-01-24T12:07:20.670Z [INFO]: Broker connection successful: dashboard.senselive.in:1883
+2025-01-24T12:07:21.688Z [ERROR]: Error with broker dashboard.senselive.in: connect ECONNREFUSED 65.2.127.156:1884
+2025-01-24T12:07:23.048Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T12:07:23.075Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T12:07:24.185Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:07:24.224Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:07:26.846Z [INFO]: Disconnected and removed broker ID: 3
+2025-01-24T12:07:26.926Z [INFO]: Connected to broker: dashboard.senselive.in
+2025-01-24T12:07:39.560Z [INFO]: Testing broker connection: broker.emqx.io:1884
+2025-01-24T12:07:41.770Z [INFO]: Attempting to update broker with ID: 6
+2025-01-24T12:07:41.792Z [ERROR]: Unexpected error while updating broker with ID 6: null value in column "password" of relation "bridge_brokers" violates not-null constraint
+2025-01-24T12:07:44.565Z [WARN]: Broker connection failed: broker.emqx.io:1884 - connack timeout
+2025-01-24T12:07:44.975Z [INFO]: Attempting to update broker with ID: 6
+2025-01-24T12:07:44.998Z [ERROR]: Unexpected error while updating broker with ID 6: null value in column "password" of relation "bridge_brokers" violates not-null constraint
+2025-01-24T12:07:50.432Z [INFO]: Attempting to update broker with ID: 6
+2025-01-24T12:07:50.455Z [ERROR]: Unexpected error while updating broker with ID 6: null value in column "password" of relation "bridge_brokers" violates not-null constraint
+2025-01-24T12:09:03.068Z [INFO]: Attempting to update broker with ID: 6
+2025-01-24T12:09:03.114Z [INFO]: Broker with ID 6 updated successfully
+2025-01-24T12:09:04.216Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:09:04.257Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:09:07.000Z [INFO]: Disconnected and removed broker ID: 6
+2025-01-24T12:09:17.010Z [ERROR]: Error with broker EMQX: connack timeout
+2025-01-24T12:09:32.023Z [ERROR]: Error with broker EMQX: connack timeout
+2025-01-24T12:09:39.419Z [INFO]: Testing broker connection: broker.emqx.io:1883
+2025-01-24T12:09:40.183Z [INFO]: Broker connection successful: broker.emqx.io:1883
+2025-01-24T12:09:42.209Z [INFO]: Attempting to update broker with ID: 6
+2025-01-24T12:09:42.254Z [INFO]: Broker with ID 6 updated successfully
+2025-01-24T12:09:43.360Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:09:43.400Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:09:47.039Z [ERROR]: Error with broker EMQX: connack timeout
+2025-01-24T12:09:47.049Z [INFO]: Disconnected and removed broker ID: 6
+2025-01-24T12:09:47.830Z [INFO]: Connected to broker: EMQX
+2025-01-24T12:10:05.437Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T12:10:05.481Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T12:10:06.587Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:10:06.629Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:10:07.078Z [INFO]: Disconnected and removed broker ID: 3
+2025-01-24T12:10:07.166Z [ERROR]: Error with broker Dashboard: Connection refused: Not authorized
+2025-01-24T12:10:10.022Z [INFO]: Attempting to update broker with ID: 1
+2025-01-24T12:10:10.066Z [INFO]: Broker with ID 1 updated successfully
+2025-01-24T12:10:11.166Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:10:11.207Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:10:12.083Z [INFO]: Disconnected and removed broker ID: 1
+2025-01-24T12:10:12.129Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:12.247Z [ERROR]: Error with broker Dashboard: Connection refused: Not authorized
+2025-01-24T12:10:17.182Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:17.288Z [ERROR]: Error with broker Dashboard: Connection refused: Not authorized
+2025-01-24T12:10:22.249Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:22.370Z [ERROR]: Error with broker Dashboard: Connection refused: Not authorized
+2025-01-24T12:10:23.342Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T12:10:23.386Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T12:10:24.481Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:10:24.521Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:10:27.121Z [INFO]: Disconnected and removed broker ID: 3
+2025-01-24T12:10:27.199Z [INFO]: Connected to broker: Dashboard
+2025-01-24T12:10:27.315Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:30.549Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T12:10:30.596Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T12:10:32.079Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:10:32.120Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:10:32.412Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:37.508Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:42.614Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:47.707Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:52.815Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:10:54.621Z [INFO]: Attempting to update broker with ID: 1
+2025-01-24T12:10:54.665Z [INFO]: Broker with ID 1 updated successfully
+2025-01-24T12:10:55.777Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:10:55.819Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:10:57.156Z [INFO]: Disconnected and removed broker ID: 1
+2025-01-24T12:10:57.304Z [INFO]: Connected to broker: Broker
+2025-01-24T12:11:44.281Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:11:44.321Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:11:45.330Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:11:45.370Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:11:58.904Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:11:58.946Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:12:29.224Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:12:29.264Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:12:44.800Z [INFO]: Attempting to update broker with ID: 6
+2025-01-24T12:12:44.843Z [INFO]: Broker with ID 6 updated successfully
+2025-01-24T12:12:45.942Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:12:45.989Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:12:47.301Z [INFO]: Disconnected and removed broker ID: 6
+2025-01-24T12:12:57.307Z [ERROR]: Error with broker EMQX: connack timeout
+2025-01-24T12:13:03.532Z [INFO]: Testing broker connection: broker.emqx.io:1883
+2025-01-24T12:13:04.361Z [INFO]: Broker connection successful: broker.emqx.io:1883
+2025-01-24T12:13:06.086Z [INFO]: Attempting to update broker with ID: 6
+2025-01-24T12:13:06.112Z [INFO]: Broker with ID 6 updated successfully
+2025-01-24T12:13:07.205Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:13:07.247Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:13:07.332Z [INFO]: Disconnected and removed broker ID: 6
+2025-01-24T12:13:08.092Z [INFO]: Connected to broker: EMQX
+2025-01-24T12:17:37.719Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:17:37.760Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:17:59.765Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:17:59.787Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:18:44.085Z [INFO]: Testing broker connection: test.mosquitto.org:1883
+2025-01-24T12:18:49.088Z [WARN]: Broker connection failed: test.mosquitto.org:1883 - connack timeout
+2025-01-24T12:19:59.801Z [INFO]: Testing broker connection: broker.hivemq.com:1883
+2025-01-24T12:20:01.745Z [INFO]: Broker connection successful: broker.hivemq.com:1883
+2025-01-24T12:20:03.351Z [INFO]: Attempting to add a new broker: broker.hivemq.com at broker.hivemq.com:1883
+2025-01-24T12:20:03.379Z [INFO]: Broker added successfully: broker.hivemq.com (ID: 7)
+2025-01-24T12:20:03.427Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:20:03.448Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:20:08.377Z [INFO]: Connected to broker: broker.hivemq.com
+2025-01-24T12:23:59.327Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:23:59.348Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:24:12.429Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:24:12.450Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:24:16.368Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:24:16.389Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:24:30.404Z [INFO]: Testing broker connection: broker.senselive.io:9001
+2025-01-24T12:24:35.422Z [WARN]: Broker connection failed: broker.senselive.io:9001 - connack timeout
+2025-01-24T12:24:40.552Z [INFO]: Attempting to update broker with ID: 1
+2025-01-24T12:24:40.577Z [INFO]: Broker with ID 1 updated successfully
+2025-01-24T12:24:41.679Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:24:41.721Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:24:43.291Z [INFO]: Disconnected and removed broker ID: 1
+2025-01-24T12:24:43.376Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:24:48.480Z [ERROR]: Error with broker Broker: Connection refused: Not authorized
+2025-01-24T12:24:50.171Z [INFO]: Attempting to update broker with ID: 1
+2025-01-24T12:24:50.196Z [INFO]: Broker with ID 1 updated successfully
+2025-01-24T12:24:51.297Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:24:51.338Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:24:53.307Z [INFO]: Disconnected and removed broker ID: 1
+2025-01-24T12:24:53.457Z [INFO]: Connected to broker: Broker
+2025-01-24T12:25:31.530Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:25:31.552Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:34:58.568Z [INFO]: Fetching all brokers initiated by: ::1
+2025-01-24T12:34:58.593Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:35:55.839Z [INFO]: Starting broker monitoring...
+2025-01-24T12:36:00.885Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T12:36:00.886Z [ERROR]: Source client not found for broker ID: 1
+2025-01-24T12:36:00.982Z [INFO]: Connected to broker: Dashboard
+2025-01-24T12:36:01.425Z [INFO]: Connected to broker: Broker
+2025-01-24T12:36:01.703Z [INFO]: Connected to broker: broker.hivemq.com
+2025-01-24T12:36:02.082Z [INFO]: Connected to broker: EMQX
+2025-01-24T12:36:05.885Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T12:36:05.888Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-24T12:36:05.921Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-24T12:36:05.923Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-24T12:39:14.092Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-24T12:39:14.117Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:40:16.852Z [INFO]: Login attempt initiated for user: admin@dawg.com
+2025-01-24T12:40:16.948Z [INFO]: Login successful for user: admin@dawg.com
+2025-01-24T12:40:16.953Z [INFO]: Fetching user details for request: GET /user
+2025-01-24T12:40:17.175Z [INFO]: User details fetched successfully for user: admin@dawg.com
+2025-01-24T12:40:17.485Z [INFO]: Fetching all brokers initiated by: 192.168.123.133
+2025-01-24T12:40:17.528Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:40:21.719Z [INFO]: Fetching all brokers initiated by: 192.168.123.133
+2025-01-24T12:40:21.743Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:40:30.733Z [INFO]: Fetching all brokers initiated by: 192.168.123.133
+2025-01-24T12:40:30.757Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:43:35.506Z [INFO]: Login attempt initiated for user: admin@dawg.com
+2025-01-24T12:43:35.600Z [INFO]: Login successful for user: admin@dawg.com
+2025-01-24T12:43:35.620Z [INFO]: Fetching user details for request: GET /user
+2025-01-24T12:43:35.827Z [INFO]: User details fetched successfully for user: admin@dawg.com
+2025-01-24T12:43:36.143Z [INFO]: Fetching all brokers initiated by: 192.168.123.59
+2025-01-24T12:43:36.168Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:43:55.129Z [INFO]: Fetching all brokers initiated by: 192.168.123.59
+2025-01-24T12:43:55.155Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:44:14.100Z [INFO]: Testing broker connection: dashboard.senselive.in:1800
+2025-01-24T12:44:16.345Z [WARN]: Broker connection failed: dashboard.senselive.in:1800 - connect ECONNREFUSED 65.2.127.156:1800
+2025-01-24T12:44:23.999Z [INFO]: Testing broker connection: dashboard.senselive.in:1883
+2025-01-24T12:44:24.040Z [INFO]: Broker connection successful: dashboard.senselive.in:1883
+2025-01-24T12:44:33.102Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T12:44:33.131Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T12:44:34.235Z [INFO]: Fetching all brokers initiated by: 192.168.123.59
+2025-01-24T12:44:34.258Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:44:36.530Z [INFO]: Disconnected and removed broker ID: 3
+2025-01-24T12:44:38.748Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:44:45.990Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:44:53.234Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:00.390Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:07.506Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:14.639Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:21.768Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:28.980Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:36.097Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:43.229Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:50.459Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:45:57.557Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:46:04.665Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:46:07.643Z [INFO]: Fetching all brokers initiated by: 192.168.123.59
+2025-01-24T12:46:07.667Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:46:11.766Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:46:19.009Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:46:26.126Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:46:33.258Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:46:37.211Z [INFO]: Testing broker connection: dashboard.senselive.in:1883
+2025-01-24T12:46:37.252Z [INFO]: Broker connection successful: dashboard.senselive.in:1883
+2025-01-24T12:46:38.825Z [INFO]: Attempting to update broker with ID: 3
+2025-01-24T12:46:38.853Z [INFO]: Broker with ID 3 updated successfully
+2025-01-24T12:46:39.963Z [INFO]: Fetching all brokers initiated by: 192.168.123.59
+2025-01-24T12:46:39.987Z [INFO]: Fetched 4 brokers successfully.
+2025-01-24T12:46:40.390Z [ERROR]: Error with broker Dashboard: connect ECONNREFUSED 65.2.127.156:1889
+2025-01-24T12:46:41.701Z [INFO]: Disconnected and removed broker ID: 3
+2025-01-24T12:46:41.749Z [INFO]: Connected to broker: Dashboard
+2025-01-24T12:47:03.762Z [INFO]: Attempting to delete broker with ID: 7
+2025-01-24T12:47:03.793Z [INFO]: Broker with ID 7 deleted successfully
+2025-01-24T12:47:03.811Z [INFO]: Fetching all brokers initiated by: 192.168.123.59
+2025-01-24T12:47:04.026Z [INFO]: Fetched 3 brokers successfully.
+2025-01-24T12:47:06.741Z [INFO]: Disconnected and removed broker ID: 7

@@ -13,32 +13,23 @@ async function connectToBroker(broker) {
         reconnectPeriod: 5000,
         connectTimeout: 10000,
     });
-    brokerStatus[broker.id] = {
-        status: 'connecting',
-        host: broker.host,
-        port: broker.port,
-        username: broker.username,
-        password: broker.password,
-        lastUpdated: new Date().toISOString(),
-    };
+    brokerStatus[broker.id] = { status: 'connecting', lastUpdated: new Date().toISOString() };
+    logger.info(`Attempting to connect to broker: ${broker.name}`);
 
     client.on('connect', () => {
-        brokerStatus[broker.id].status = 'connected';
-        brokerStatus[broker.id].lastUpdated = new Date().toISOString();
+        brokerStatus[broker.id] = { status: 'connected', lastUpdated: new Date().toISOString() };
         logger.info(`Connected to broker: ${broker.name}`);
     });
     client.on('error', (error) => {
-        brokerStatus[broker.id].status = 'error';
-        brokerStatus[broker.id].error = error.message;
-        brokerStatus[broker.id].lastUpdated = new Date().toISOString();
+        brokerStatus[broker.id] = { status: 'error', error: error.message, lastUpdated: new Date().toISOString() };
         logger.error(`Error with broker ${broker.name}: ${error.message}`);
     });
     client.on('disconnect', () => {
-        brokerStatus[broker.id].status = 'disconnected';
-        brokerStatus[broker.id].lastUpdated = new Date().toISOString();
+        brokerStatus[broker.id] = { status: 'disconnected', lastUpdated: new Date().toISOString() };
         logger.info(`Disconnected from broker: ${broker.name}`);
     });
     mqttClients[broker.id] = client;
+    brokerStatus[broker.id] = { status: 'connecting', lastUpdated: new Date().toISOString() };
     return client;
 }
 
@@ -60,20 +51,29 @@ async function refreshBrokers(updatedBrokerId = null) {
         const brokers = await db.query(query);
 
         for (const broker of brokers.rows) {
-            const existingClient = mqttClients[broker.id];
-            if (existingClient) {
-                const currentStatus = brokerStatus[broker.id];
-                if (
-                    currentStatus.host !== broker.host ||
-                    currentStatus.port !== broker.port ||
-                    currentStatus.username !== broker.username ||
-                    currentStatus.password !== broker.password
-                ) {
-                    await disconnectBroker(broker.id);
+            try {
+                const existingClient = mqttClients[broker.id];
+                if (existingClient) {
+                    const currentStatus = brokerStatus[broker.id];
+                    if (
+                        currentStatus.host !== broker.host ||
+                        currentStatus.port !== broker.port ||
+                        currentStatus.username !== broker.username ||
+                        currentStatus.password !== broker.password
+                    ) {
+                        await disconnectBroker(broker.id);
+                        await connectToBroker(broker);
+                    }
+                } else {
                     await connectToBroker(broker);
                 }
-            } else {
-                await connectToBroker(broker);
+            } catch (error) {
+                brokerStatus[broker.id] = {
+                    status: 'error',
+                    error: error.message,
+                    lastUpdated: new Date().toISOString(),
+                };
+                logger.error(`Error processing broker ${broker.id} (${broker.name}): ${error.message}`);
             }
         }
 
@@ -82,8 +82,17 @@ async function refreshBrokers(updatedBrokerId = null) {
             const dbBrokerIds = brokers.rows.map(broker => broker.id);
 
             for (const brokerId of currentBrokerIds) {
-                if (!dbBrokerIds.includes(brokerId)) {
-                    await disconnectBroker(brokerId);
+                try {
+                    if (!dbBrokerIds.includes(brokerId)) {
+                        await disconnectBroker(brokerId);
+                    }
+                } catch (error) {
+                    brokerStatus[brokerId] = {
+                        status: 'error',
+                        error: error.message,
+                        lastUpdated: new Date().toISOString(),
+                    };
+                    logger.error(`Error disconnecting broker ${brokerId}: ${error.message}`);
                 }
             }
         }
@@ -92,12 +101,14 @@ async function refreshBrokers(updatedBrokerId = null) {
     }
 }
 
+
 async function monitorBrokers() {
     logger.info('Starting broker monitoring...');
     setInterval(() => {
         refreshBrokers();
     }, 5000);
 }
+
 
 async function getBrokerStatus() {
     return brokerStatus;
@@ -108,6 +119,5 @@ module.exports = {
     monitorBrokers,
     connectToBroker,
     disconnectBroker,
-    refreshBrokers,
     getBrokerStatus,
 };
