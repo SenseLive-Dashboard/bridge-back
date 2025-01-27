@@ -1,0 +1,97 @@
+2025-01-25T10:05:06.804Z [INFO]: Starting broker monitoring...
+2025-01-25T10:05:11.466Z [INFO]: Starting broker monitoring...
+2025-01-25T10:05:16.590Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-25T10:05:16.591Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-25T10:05:16.768Z [INFO]: Connected to broker: Dashboard
+2025-01-25T10:05:16.808Z [INFO]: Connected to broker: Broker
+2025-01-25T10:05:16.844Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-25T10:05:16.846Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-25T10:05:17.624Z [INFO]: Connected to broker: EMQX
+2025-01-25T10:05:25.881Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-25T10:05:25.905Z [INFO]: Fetched 3 brokers successfully.
+2025-01-25T10:07:08.610Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-25T10:07:08.633Z [INFO]: Fetched 3 brokers successfully.
+2025-01-25T10:07:14.249Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-25T10:07:14.272Z [INFO]: Fetched 3 brokers successfully.
+2025-01-25T10:09:50.627Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-25T10:09:50.650Z [INFO]: Fetched 3 brokers successfully.
+2025-01-25T10:23:41.361Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:23:41.391Z [INFO]: Mapping added successfully: ID 4
+2025-01-25T10:23:43.054Z [INFO]: Updating mapping for topic Sense/Live/SL02202352
+2025-01-25T10:23:43.084Z [INFO]: Subscribed to Sense/Live/SL02202352
+2025-01-25T10:24:02.189Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:24:02.216Z [INFO]: Mapping added successfully: ID 5
+2025-01-25T10:24:03.064Z [INFO]: Updating mapping for topic Sense/Live/SL02202353
+2025-01-25T10:24:03.093Z [INFO]: Subscribed to Sense/Live/SL02202353
+2025-01-25T10:24:09.600Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:24:09.626Z [INFO]: Mapping added successfully: ID 6
+2025-01-25T10:24:13.078Z [INFO]: Updating mapping for topic Sense/Live/SL02202354
+2025-01-25T10:24:13.109Z [INFO]: Subscribed to Sense/Live/SL02202354
+2025-01-25T10:26:53.298Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-25T10:26:53.300Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-25T10:26:58.311Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-25T10:26:58.312Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-25T10:28:24.657Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:28:24.684Z [INFO]: Mapping added successfully: ID 7
+2025-01-25T10:28:28.428Z [INFO]: Updating mapping for topic Sense/Live/SL02202302
+2025-01-25T10:28:28.458Z [INFO]: Subscribed to Sense/Live/SL02202302
+2025-01-25T10:29:09.644Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:29:09.670Z [INFO]: Mapping added successfully: ID 8
+2025-01-25T10:29:13.488Z [INFO]: Updating mapping for topic Sense/Live/SL02202303
+2025-01-25T10:29:13.516Z [INFO]: Subscribed to Sense/Live/SL02202303
+2025-01-25T10:29:56.047Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:29:56.073Z [INFO]: Mapping added successfully: ID 9
+2025-01-25T10:29:58.570Z [INFO]: Updating mapping for topic Sense/Live/SL02202304
+2025-01-25T10:29:58.600Z [INFO]: Subscribed to Sense/Live/SL02202304
+2025-01-25T10:30:01.452Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:30:01.479Z [INFO]: Mapping added successfully: ID 10
+2025-01-25T10:30:03.571Z [INFO]: Updating mapping for topic Sense/Live/SL02202305
+2025-01-25T10:30:03.600Z [INFO]: Subscribed to Sense/Live/SL02202305
+2025-01-25T10:30:07.461Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:30:07.487Z [INFO]: Mapping added successfully: ID 11
+2025-01-25T10:30:08.576Z [INFO]: Updating mapping for topic Sense/Live/SL02202306
+2025-01-25T10:30:08.606Z [INFO]: Subscribed to Sense/Live/SL02202306
+2025-01-25T10:30:14.830Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:30:14.862Z [INFO]: Mapping added successfully: ID 12
+2025-01-25T10:30:18.601Z [INFO]: Updating mapping for topic Sense/Live/SL02202307
+2025-01-25T10:30:18.630Z [INFO]: Subscribed to Sense/Live/SL02202307
+2025-01-25T10:30:23.379Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:30:23.414Z [INFO]: Mapping added successfully: ID 13
+2025-01-25T10:30:23.608Z [INFO]: Updating mapping for topic Sense/Live/SL02202308
+2025-01-25T10:30:23.642Z [INFO]: Subscribed to Sense/Live/SL02202308
+2025-01-25T10:30:38.868Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:30:38.900Z [INFO]: Mapping added successfully: ID 14
+2025-01-25T10:30:43.645Z [INFO]: Updating mapping for topic Sense/Live/SL02202309
+2025-01-25T10:30:43.675Z [INFO]: Subscribed to Sense/Live/SL02202309
+2025-01-25T10:30:50.277Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:30:50.308Z [INFO]: Mapping added successfully: ID 15
+2025-01-25T10:30:53.664Z [INFO]: Updating mapping for topic Sense/Live/SL02202310
+2025-01-25T10:30:53.695Z [INFO]: Subscribed to Sense/Live/SL02202310
+2025-01-25T10:30:56.257Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:30:56.285Z [INFO]: Mapping added successfully: ID 16
+2025-01-25T10:30:58.663Z [INFO]: Updating mapping for topic Sense/Live/SL02202311
+2025-01-25T10:30:58.692Z [INFO]: Subscribed to Sense/Live/SL02202311
+2025-01-25T10:31:03.383Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:31:03.409Z [INFO]: Mapping added successfully: ID 17
+2025-01-25T10:31:03.678Z [INFO]: Updating mapping for topic Sense/Live/SL02202312
+2025-01-25T10:31:03.706Z [INFO]: Subscribed to Sense/Live/SL02202312
+2025-01-25T10:31:08.229Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:31:08.256Z [INFO]: Mapping added successfully: ID 18
+2025-01-25T10:31:08.692Z [INFO]: Updating mapping for topic Sense/Live/SL02202313
+2025-01-25T10:31:08.721Z [INFO]: Subscribed to Sense/Live/SL02202313
+2025-01-25T10:31:18.669Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:31:18.695Z [INFO]: Mapping added successfully: ID 19
+2025-01-25T10:31:18.883Z [INFO]: Updating mapping for topic Sense/Live/SL02202314
+2025-01-25T10:31:18.910Z [INFO]: Subscribed to Sense/Live/SL02202314
+2025-01-25T10:31:25.626Z [INFO]: Attempting to add a new mapping from Broker 1 to Broker 3
+2025-01-25T10:31:25.660Z [INFO]: Mapping added successfully: ID 20
+2025-01-25T10:31:28.709Z [INFO]: Updating mapping for topic Sense/Live/SL02202315
+2025-01-25T10:31:28.741Z [INFO]: Subscribed to Sense/Live/SL02202315
+2025-01-25T10:44:23.867Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-25T10:44:23.890Z [INFO]: Fetched 3 brokers successfully.
+2025-01-25T10:44:26.842Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-25T10:44:26.864Z [INFO]: Fetched 3 brokers successfully.
+2025-01-25T10:44:29.458Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-25T10:44:29.481Z [INFO]: Fetched 3 brokers successfully.
+2025-01-25T10:44:32.265Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-25T10:44:32.289Z [INFO]: Fetched 3 brokers successfully.

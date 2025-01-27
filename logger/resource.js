@@ -58,10 +58,10 @@ const cron = require('node-cron');
 const { Table } = require('console-table-printer');
 const WebSocket = require('ws');
 
-const username = 'user1';
-const password = 'password1';
+const username = 'SenseLive';
+const password = 'SenseLive@Password';
 const topic = 'bridge/resource';
-const serverUrl = 'ws://localhost:8080';
+const serverUrl = 'ws://localhost:8001';
 
 let ws;
 

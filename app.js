@@ -6,7 +6,7 @@ const { errorHandler } = require('./middleware/errorMiddleware');
 const mqttBrokerHandler = require('./handlers/mqttBrokerHandler');
 const mqttMappingHandler = require('./handlers/mqttMappingHandler');
 require('./logger/resource');
-
+require('./webSocket/webServer');
 
 const app = express();
 const port = 8000;
