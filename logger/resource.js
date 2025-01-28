@@ -61,7 +61,7 @@ const WebSocket = require('ws');
 const username = 'SenseLive';
 const password = 'SenseLive@Password';
 const topic = 'bridge/resource';
-const serverUrl = 'ws://localhost:8001';
+const serverUrl = 'wss://senso.senselive.io:8001';
 
 let ws;
 
