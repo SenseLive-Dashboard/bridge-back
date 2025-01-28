@@ -13,8 +13,8 @@ const mqttMappingHandler = require('./handlers/mqttMappingHandler');
 require('./logger/resource');
 require('./webSocket/wss');
 
-const privateKey = fs.readFileSync(process.env.SSL_KEY_PATH, 'utf8');
-const fullchain = fs.readFileSync(process.env.SSL_CERT_PATH, 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/senso.senselive.io/privkey.pem', 'utf8');
+const fullchain = fs.readFileSync('/etc/letsencrypt/live/senso.senselive.io/fullchain.pem', 'utf8');
 const credentials = { key: privateKey, cert: fullchain };
 
 const allowedOrigins = ['https://bridge.senselive.io', 'bridge.senselive.io'];
