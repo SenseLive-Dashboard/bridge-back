@@ -1,0 +1,138 @@
+2025-01-27T12:29:27.440Z [INFO]: Starting broker monitoring...
+2025-01-27T12:29:32.598Z [INFO]: Updating mapping for topic Sense/Live/SL02202313
+2025-01-27T12:29:32.600Z [INFO]: Updating mapping for topic Sense/Live/SL02202314
+2025-01-27T12:29:32.600Z [INFO]: Updating mapping for topic Sense/Live/SL02202315
+2025-01-27T12:29:32.601Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-27T12:29:32.602Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-27T12:29:32.602Z [INFO]: Updating mapping for topic Sense/Live/SL02202352
+2025-01-27T12:29:32.603Z [INFO]: Updating mapping for topic Sense/Live/SL02202353
+2025-01-27T12:29:32.604Z [INFO]: Updating mapping for topic Sense/Live/SL02202354
+2025-01-27T12:29:32.605Z [INFO]: Updating mapping for topic Sense/Live/SL02202302
+2025-01-27T12:29:32.606Z [INFO]: Updating mapping for topic Sense/Live/SL02202303
+2025-01-27T12:29:32.607Z [INFO]: Updating mapping for topic Sense/Live/SL02202304
+2025-01-27T12:29:32.608Z [INFO]: Updating mapping for topic Sense/Live/SL02202305
+2025-01-27T12:29:32.608Z [INFO]: Updating mapping for topic Sense/Live/SL02202306
+2025-01-27T12:29:32.609Z [INFO]: Updating mapping for topic Sense/Live/SL02202307
+2025-01-27T12:29:32.609Z [INFO]: Updating mapping for topic Sense/Live/SL02202308
+2025-01-27T12:29:32.610Z [INFO]: Updating mapping for topic Sense/Live/SL02202309
+2025-01-27T12:29:32.611Z [INFO]: Updating mapping for topic Sense/Live/SL02202310
+2025-01-27T12:29:32.611Z [INFO]: Updating mapping for topic Sense/Live/SL02202311
+2025-01-27T12:29:32.707Z [INFO]: Connected to broker: Dashboard
+2025-01-27T12:29:32.779Z [INFO]: Connected to broker: Broker
+2025-01-27T12:29:32.810Z [INFO]: Subscribed to Sense/Live/SL02202313
+2025-01-27T12:29:32.811Z [INFO]: Subscribed to Sense/Live/SL02202314
+2025-01-27T12:29:32.812Z [INFO]: Subscribed to Sense/Live/SL02202315
+2025-01-27T12:29:32.812Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-27T12:29:32.813Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-27T12:29:32.813Z [INFO]: Subscribed to Sense/Live/SL02202352
+2025-01-27T12:29:32.814Z [INFO]: Subscribed to Sense/Live/SL02202353
+2025-01-27T12:29:32.814Z [INFO]: Subscribed to Sense/Live/SL02202354
+2025-01-27T12:29:32.814Z [INFO]: Subscribed to Sense/Live/SL02202302
+2025-01-27T12:29:32.815Z [INFO]: Subscribed to Sense/Live/SL02202303
+2025-01-27T12:29:32.831Z [INFO]: Subscribed to Sense/Live/SL02202304
+2025-01-27T12:29:32.832Z [INFO]: Subscribed to Sense/Live/SL02202305
+2025-01-27T12:29:32.833Z [INFO]: Subscribed to Sense/Live/SL02202306
+2025-01-27T12:29:32.833Z [INFO]: Subscribed to Sense/Live/SL02202307
+2025-01-27T12:29:32.834Z [INFO]: Subscribed to Sense/Live/SL02202308
+2025-01-27T12:29:32.834Z [INFO]: Subscribed to Sense/Live/SL02202309
+2025-01-27T12:29:32.834Z [INFO]: Subscribed to Sense/Live/SL02202310
+2025-01-27T12:29:32.835Z [INFO]: Subscribed to Sense/Live/SL02202311
+2025-01-27T12:29:33.585Z [INFO]: Connected to broker: EMQX
+2025-01-27T12:30:54.767Z [INFO]: Login attempt initiated for user: admin@dawg.com
+2025-01-27T12:30:54.872Z [INFO]: Login successful for user: admin@dawg.com
+2025-01-27T12:30:54.879Z [INFO]: Fetching user details for request: GET /user
+2025-01-27T12:30:55.111Z [INFO]: User details fetched successfully for user: admin@dawg.com
+2025-01-27T12:30:55.421Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:30:55.442Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:30:57.760Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:30:57.785Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:30:57.800Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:30:57.822Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:31:10.303Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:31:10.325Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:31:10.330Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:31:10.514Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:31:23.228Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:31:23.251Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:31:26.556Z [INFO]: Attempting to update mapping with ID: 1
+2025-01-27T12:31:26.583Z [ERROR]: Unexpected error while updating mapping with ID 1: null value in column "source_broker_id" of relation "broker_mappings" violates not-null constraint
+2025-01-27T12:31:33.942Z [INFO]: Attempting to update mapping with ID: 1
+2025-01-27T12:31:33.967Z [ERROR]: Unexpected error while updating mapping with ID 1: null value in column "source_broker_id" of relation "broker_mappings" violates not-null constraint
+2025-01-27T12:31:52.337Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:31:52.359Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:31:52.366Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:31:52.549Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:32:11.143Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:32:11.165Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:32:11.193Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:32:11.215Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:32:21.618Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:32:21.638Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:32:25.509Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:32:25.532Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:32:25.540Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:32:25.735Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:32:27.464Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:32:27.494Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:32:42.133Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:32:42.154Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:32:42.160Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:32:42.352Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:34:10.351Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:34:10.374Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:34:10.379Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:34:10.562Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:34:13.171Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:34:13.192Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:34:16.868Z [INFO]: Attempting to update mapping with ID: 18
+2025-01-27T12:34:16.891Z [ERROR]: Unexpected error while updating mapping with ID 18: null value in column "source_broker_id" of relation "broker_mappings" violates not-null constraint
+2025-01-27T12:34:23.058Z [INFO]: Attempting to update mapping with ID: 18
+2025-01-27T12:34:23.080Z [ERROR]: Unexpected error while updating mapping with ID 18: null value in column "source_broker_id" of relation "broker_mappings" violates not-null constraint
+2025-01-27T12:34:34.400Z [INFO]: Attempting to update mapping with ID: 18
+2025-01-27T12:34:34.423Z [ERROR]: Unexpected error while updating mapping with ID 18: null value in column "source_broker_id" of relation "broker_mappings" violates not-null constraint
+2025-01-27T12:34:51.719Z [INFO]: Attempting to update mapping with ID: 18
+2025-01-27T12:34:51.743Z [ERROR]: Unexpected error while updating mapping with ID 18: null value in column "source_broker_id" of relation "broker_mappings" violates not-null constraint
+2025-01-27T12:40:24.818Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:40:24.839Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:40:24.845Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:40:25.034Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:40:35.324Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:40:35.348Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:40:37.387Z [INFO]: Attempting to update mapping with ID: 1
+2025-01-27T12:40:37.416Z [INFO]: Mapping with ID 1 updated successfully
+2025-01-27T12:40:38.415Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-27T12:40:38.415Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-27T12:40:38.533Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:40:38.557Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:40:38.563Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:40:38.754Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:41:10.193Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:41:10.214Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:41:13.865Z [INFO]: Attempting to update mapping with ID: 18
+2025-01-27T12:41:13.891Z [INFO]: Mapping with ID 18 updated successfully
+2025-01-27T12:41:14.990Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:41:15.016Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:41:15.025Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:41:15.230Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:41:18.484Z [INFO]: Updating mapping for topic Sense/Live/SL02202313
+2025-01-27T12:41:18.484Z [INFO]: Subscribed to Sense/Live/SL02202313
+2025-01-27T12:41:28.660Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:41:28.681Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:41:30.791Z [INFO]: Attempting to update mapping with ID: 19
+2025-01-27T12:41:30.822Z [INFO]: Mapping with ID 19 updated successfully
+2025-01-27T12:41:31.921Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:41:31.942Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:41:31.947Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:41:32.152Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:41:33.528Z [INFO]: Updating mapping for topic Sense/Live/SL02202314
+2025-01-27T12:41:33.528Z [INFO]: Subscribed to Sense/Live/SL02202314
+2025-01-27T12:41:53.593Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:41:53.614Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:41:55.223Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:41:55.246Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:41:55.253Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-27T12:41:55.441Z [INFO]: Collected 18 mappings successfully.
+2025-01-27T12:42:31.653Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:42:31.674Z [INFO]: Fetched 3 brokers successfully.
+2025-01-27T12:44:11.334Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-27T12:44:11.355Z [INFO]: Fetched 3 brokers successfully.

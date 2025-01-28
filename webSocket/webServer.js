@@ -57,7 +57,7 @@ server.on('connection', (socket) => {
   });
 });
 
-console.log('WebSocket server is running on ws://localhost:8080');
+console.log('WebSocket server is running on ws://localhost:8001');
 
 function handleAuthentication(socket, data) {
   const { username, password } = data;
