@@ -10,8 +10,9 @@ const { errorHandler } = require('./middleware/errorMiddleware');
 const mqttBrokerHandler = require('./handlers/mqttBrokerHandler');
 const mqttMappingHandler = require('./handlers/mqttMappingHandler');
 
-//require('./logger/resource');
+
 require('./webSocket/wss');
+require('./logger/resource');
 
 const privateKey = fs.readFileSync('/etc/letsencrypt/live/senso.senselive.io/privkey.pem', 'utf8');
 const fullchain = fs.readFileSync('/etc/letsencrypt/live/senso.senselive.io/fullchain.pem', 'utf8');
