@@ -1,0 +1,52 @@
+2025-01-28T12:56:00.785Z [INFO]: Starting broker monitoring...
+2025-01-28T12:56:05.870Z [INFO]: Updating mapping for topic Sense/Live/SL02202315
+2025-01-28T12:56:05.871Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-28T12:56:05.871Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-28T12:56:05.872Z [INFO]: Updating mapping for topic Sense/Live/SL02202313
+2025-01-28T12:56:05.872Z [INFO]: Updating mapping for topic Sense/Live/SL02202314
+2025-01-28T12:56:05.873Z [INFO]: Updating mapping for topic Sense/Live/SL02202352
+2025-01-28T12:56:05.873Z [INFO]: Updating mapping for topic Sense/Live/SL02202353
+2025-01-28T12:56:05.874Z [INFO]: Updating mapping for topic Sense/Live/SL02202354
+2025-01-28T12:56:05.875Z [INFO]: Updating mapping for topic Sense/Live/SL02202302
+2025-01-28T12:56:05.876Z [INFO]: Updating mapping for topic Sense/Live/SL02202303
+2025-01-28T12:56:05.877Z [INFO]: Updating mapping for topic Sense/Live/SL02202304
+2025-01-28T12:56:05.877Z [INFO]: Updating mapping for topic Sense/Live/SL02202305
+2025-01-28T12:56:05.878Z [INFO]: Updating mapping for topic Sense/Live/SL02202306
+2025-01-28T12:56:05.878Z [INFO]: Updating mapping for topic Sense/Live/SL02202307
+2025-01-28T12:56:05.879Z [INFO]: Updating mapping for topic Sense/Live/SL02202308
+2025-01-28T12:56:05.880Z [INFO]: Updating mapping for topic Sense/Live/SL02202309
+2025-01-28T12:56:05.880Z [INFO]: Updating mapping for topic Sense/Live/SL02202310
+2025-01-28T12:56:05.881Z [INFO]: Updating mapping for topic Sense/Live/SL02202311
+2025-01-28T12:56:06.083Z [INFO]: Connected to broker: Broker
+2025-01-28T12:56:06.123Z [INFO]: Subscribed to Sense/Live/SL02202315
+2025-01-28T12:56:06.125Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-28T12:56:06.127Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-28T12:56:06.129Z [INFO]: Subscribed to Sense/Live/SL02202313
+2025-01-28T12:56:06.131Z [INFO]: Subscribed to Sense/Live/SL02202314
+2025-01-28T12:56:06.133Z [INFO]: Subscribed to Sense/Live/SL02202352
+2025-01-28T12:56:06.134Z [INFO]: Subscribed to Sense/Live/SL02202353
+2025-01-28T12:56:06.135Z [INFO]: Subscribed to Sense/Live/SL02202354
+2025-01-28T12:56:06.136Z [INFO]: Subscribed to Sense/Live/SL02202302
+2025-01-28T12:56:06.137Z [INFO]: Subscribed to Sense/Live/SL02202303
+2025-01-28T12:56:06.170Z [INFO]: Subscribed to Sense/Live/SL02202304
+2025-01-28T12:56:06.170Z [INFO]: Subscribed to Sense/Live/SL02202305
+2025-01-28T12:56:06.171Z [INFO]: Subscribed to Sense/Live/SL02202306
+2025-01-28T12:56:06.171Z [INFO]: Subscribed to Sense/Live/SL02202307
+2025-01-28T12:56:06.171Z [INFO]: Subscribed to Sense/Live/SL02202308
+2025-01-28T12:56:06.172Z [INFO]: Subscribed to Sense/Live/SL02202309
+2025-01-28T12:56:06.172Z [INFO]: Subscribed to Sense/Live/SL02202310
+2025-01-28T12:56:06.173Z [INFO]: Subscribed to Sense/Live/SL02202311
+2025-01-28T12:56:06.806Z [INFO]: Connected to broker: Dashboard
+2025-01-28T12:56:07.016Z [INFO]: Connected to broker: EMQX
+2025-01-28T12:56:15.202Z [INFO]: Login attempt initiated for user: admin@dawg.com
+2025-01-28T12:56:15.317Z [INFO]: Login successful for user: admin@dawg.com
+2025-01-28T12:56:15.325Z [INFO]: Fetching user details for request: GET /user
+2025-01-28T12:56:15.353Z [INFO]: User details fetched successfully for user: admin@dawg.com
+2025-01-28T12:56:15.863Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-28T12:56:15.890Z [INFO]: Fetched 3 brokers successfully.
+2025-01-28T12:58:01.932Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-28T12:58:01.956Z [INFO]: Fetched 3 brokers successfully.
+2025-01-28T12:58:01.964Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-28T12:58:02.178Z [INFO]: Collected 18 mappings successfully.
+2025-01-28T12:58:09.066Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-28T12:58:09.090Z [INFO]: Fetched 3 brokers successfully.

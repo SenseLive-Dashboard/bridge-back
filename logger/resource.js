@@ -61,7 +61,7 @@ const WebSocket = require('ws');
 const username = 'SenseLive';
 const password = 'SenseLive@Password';
 const topic = 'bridge/resource';
-const serverUrl = 'wss://senso.senselive.io:8001';
+const serverUrl = 'wss://senso.senselive.io/ws';
 
 let ws;
 
@@ -69,7 +69,7 @@ function connectWebSocket() {
     ws = new WebSocket(serverUrl);
 
     ws.on('open', () => {
-        // console.log('Connected to WebSocket server.');
+        console.log('Connected to WebSocket server.');
 
         ws.send(JSON.stringify({ type: 'auth', username, password }));
 
