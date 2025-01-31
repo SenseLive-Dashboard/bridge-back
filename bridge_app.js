@@ -18,7 +18,7 @@ const privateKey = fs.readFileSync('/etc/letsencrypt/live/senso.senselive.io/pri
 const fullchain = fs.readFileSync('/etc/letsencrypt/live/senso.senselive.io/fullchain.pem', 'utf8');
 const credentials = { key: privateKey, cert: fullchain };
 
-const allowedOrigins = ['https://bridge.senselive.io', 'bridge.senselive.io'];
+const allowedOrigins = ['https://bridge.senselive.io', 'bridge.senselive.io', 'http://bridge.senselive.io'];
 const corsOptions = {
     origin: (origin, callback) => {
         if (!origin || allowedOrigins.includes(origin)) {

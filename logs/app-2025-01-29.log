@@ -1,0 +1,75 @@
+2025-01-29T10:29:42.833Z [INFO]: Starting broker monitoring...
+2025-01-29T10:29:47.871Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.873Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.874Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.874Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.875Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.876Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.877Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.878Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.879Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.880Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.881Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.881Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.882Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.883Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.883Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.884Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.885Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:47.885Z [ERROR]: Source client not found for broker ID: 1
+2025-01-29T10:29:48.408Z [INFO]: Connected to broker: Dashboard
+2025-01-29T10:29:48.430Z [INFO]: Connected to broker: Broker
+2025-01-29T10:29:49.181Z [INFO]: Connected to broker: EMQX
+2025-01-29T10:29:52.878Z [INFO]: Updating mapping for topic Sense/Live/SL02202315
+2025-01-29T10:29:52.883Z [INFO]: Updating mapping for topic Sense/Live/SL02202355
+2025-01-29T10:29:52.884Z [INFO]: Updating mapping for topic Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-29T10:29:52.885Z [INFO]: Updating mapping for topic Sense/Live/SL02202313
+2025-01-29T10:29:52.887Z [INFO]: Updating mapping for topic Sense/Live/SL02202314
+2025-01-29T10:29:52.888Z [INFO]: Updating mapping for topic Sense/Live/SL02202352
+2025-01-29T10:29:52.889Z [INFO]: Updating mapping for topic Sense/Live/SL02202353
+2025-01-29T10:29:52.890Z [INFO]: Updating mapping for topic Sense/Live/SL02202354
+2025-01-29T10:29:52.891Z [INFO]: Updating mapping for topic Sense/Live/SL02202302
+2025-01-29T10:29:52.892Z [INFO]: Updating mapping for topic Sense/Live/SL02202303
+2025-01-29T10:29:52.893Z [INFO]: Updating mapping for topic Sense/Live/SL02202304
+2025-01-29T10:29:52.894Z [INFO]: Updating mapping for topic Sense/Live/SL02202305
+2025-01-29T10:29:52.895Z [INFO]: Updating mapping for topic Sense/Live/SL02202306
+2025-01-29T10:29:52.895Z [INFO]: Updating mapping for topic Sense/Live/SL02202307
+2025-01-29T10:29:52.896Z [INFO]: Updating mapping for topic Sense/Live/SL02202308
+2025-01-29T10:29:52.897Z [INFO]: Updating mapping for topic Sense/Live/SL02202309
+2025-01-29T10:29:52.897Z [INFO]: Updating mapping for topic Sense/Live/SL02202310
+2025-01-29T10:29:52.898Z [INFO]: Updating mapping for topic Sense/Live/SL02202311
+2025-01-29T10:29:52.929Z [INFO]: Subscribed to Sense/Live/SL02202315
+2025-01-29T10:29:52.931Z [INFO]: Subscribed to Sense/Live/SL02202355
+2025-01-29T10:29:52.931Z [INFO]: Subscribed to Elkem/Lora/water/aa2a4bbfaf634f3d
+2025-01-29T10:29:52.932Z [INFO]: Subscribed to Sense/Live/SL02202313
+2025-01-29T10:29:52.932Z [INFO]: Subscribed to Sense/Live/SL02202314
+2025-01-29T10:29:52.933Z [INFO]: Subscribed to Sense/Live/SL02202352
+2025-01-29T10:29:52.934Z [INFO]: Subscribed to Sense/Live/SL02202353
+2025-01-29T10:29:52.934Z [INFO]: Subscribed to Sense/Live/SL02202354
+2025-01-29T10:29:52.935Z [INFO]: Subscribed to Sense/Live/SL02202302
+2025-01-29T10:29:52.935Z [INFO]: Subscribed to Sense/Live/SL02202303
+2025-01-29T10:29:52.951Z [INFO]: Subscribed to Sense/Live/SL02202304
+2025-01-29T10:29:52.952Z [INFO]: Subscribed to Sense/Live/SL02202305
+2025-01-29T10:29:52.952Z [INFO]: Subscribed to Sense/Live/SL02202306
+2025-01-29T10:29:52.953Z [INFO]: Subscribed to Sense/Live/SL02202307
+2025-01-29T10:29:52.953Z [INFO]: Subscribed to Sense/Live/SL02202308
+2025-01-29T10:29:52.954Z [INFO]: Subscribed to Sense/Live/SL02202309
+2025-01-29T10:29:52.954Z [INFO]: Subscribed to Sense/Live/SL02202310
+2025-01-29T10:29:52.954Z [INFO]: Subscribed to Sense/Live/SL02202311
+2025-01-29T10:30:02.781Z [INFO]: Login attempt initiated for user: kaushalpohekar85@gmail.com
+2025-01-29T10:30:02.809Z [WARN]: Login failed: Username not found - kaushalpohekar85@gmail.com
+2025-01-29T10:30:02.810Z [ERROR]: Unexpected error during login for user: kaushalpohekar85@gmail.com
+2025-01-29T10:30:10.488Z [INFO]: Login attempt initiated for user: admin@dwag.com
+2025-01-29T10:30:10.515Z [WARN]: Login failed: Username not found - admin@dwag.com
+2025-01-29T10:30:10.516Z [ERROR]: Unexpected error during login for user: admin@dwag.com
+2025-01-29T10:30:22.343Z [INFO]: Login attempt initiated for user: admin@dawg.com
+2025-01-29T10:30:22.468Z [INFO]: Login successful for user: admin@dawg.com
+2025-01-29T10:30:22.476Z [INFO]: Fetching user details for request: GET /user
+2025-01-29T10:30:22.708Z [INFO]: User details fetched successfully for user: admin@dawg.com
+2025-01-29T10:30:23.027Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-29T10:30:23.053Z [INFO]: Fetched 3 brokers successfully.
+2025-01-29T10:30:27.707Z [INFO]: Fetching all brokers initiated by: 127.0.0.1
+2025-01-29T10:30:27.734Z [INFO]: Fetched 3 brokers successfully.
+2025-01-29T10:30:27.758Z [INFO]: Fetching all mappings initiated by: 127.0.0.1
+2025-01-29T10:30:27.793Z [INFO]: Collected 18 mappings successfully.
+2025-01-29T11:26:17.659Z [ERROR]: Error refreshing brokers: getaddrinfo ENOTFOUND senselive.postgres.database.azure.com
